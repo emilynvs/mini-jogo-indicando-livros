@@ -32,7 +32,7 @@ res = perguntas("nacional ou internacional? (nacional/internacional)")
 if res == 'internacional':
     res = perguntas("Tem elementos de moralidade voltada para crianças?(sim/não)")
     if res == 'sim':
-        res = perguntas("A história é focada para crianças? (sim/não)")
+        res = perguntas("O protagonista é criança? (sim/não)")
         if res == 'sim':
             res = perguntas("A protagonista é uma menina? ")
             if res == 'sim':
